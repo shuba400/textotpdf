@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="679.0" prefWidth="906.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PersonalInfoController">
+    <children>
+        <AnchorPane layoutY="-4.0" prefHeight="686.0" prefWidth="464.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #dc143c, #3432a8);">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="146.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Personel.png" />
+                    </image>
+                </ImageView>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="411.0" prefHeight="42.0" prefWidth="186.0" text="PersonalInfo" textFill="#fffffffc">
+                    <font>
+                        <Font name="Comic Sans MS Bold Italic" size="25.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="FirstName" layoutX="499.0" layoutY="166.0" prefHeight="41.0" prefWidth="176.0" promptText="FirstName" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="LastName" layoutX="698.0" layoutY="163.0" prefHeight="42.0" prefWidth="149.0" promptText="LastName" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="Phone" layoutX="499.0" layoutY="270.0" prefHeight="42.0" prefWidth="157.0" promptText="Phone" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="Nationality" layoutX="691.0" layoutY="270.0" prefHeight="42.0" prefWidth="150.0" promptText="Nationality" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="EmailId" layoutX="499.0" layoutY="358.0" prefHeight="42.0" prefWidth="342.0" promptText="EmailId" styleClass="text-field" stylesheets="@filestyle.css" />
+        <Button fx:id="Save" layoutX="613.0" layoutY="480.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="57.0" prefWidth="136.0" style="-fx-background-color: #00a805;" text="Save " textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

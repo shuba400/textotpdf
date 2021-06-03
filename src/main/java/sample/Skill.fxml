@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="707.0" prefWidth="929.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Skill">
+   <children>
+      <AnchorPane prefHeight="715.0" prefWidth="460.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #dc143c, #3432a8);">
+         <children>
+            <Label alignment="CENTER" layoutX="142.0" layoutY="400.0" prefHeight="42.0" prefWidth="118.0" text="Skills" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="126.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Skills.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="LangKnown" alignment="CENTER" layoutX="503.0" layoutY="195.0" prefHeight="42.0" prefWidth="340.0" promptText="LangKnown" stylesheets="@filestyle.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ProLangKnown" alignment="CENTER" layoutX="503.0" layoutY="288.0" prefHeight="51.0" prefWidth="340.0" promptText="ProgLangKnown" stylesheets="@filestyle.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Others" alignment="CENTER" layoutX="503.0" layoutY="391.0" prefHeight="51.0" prefWidth="340.0" promptText="Others" stylesheets="@filestyle.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Save" layoutX="605.0" layoutY="521.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="57.0" prefWidth="136.0" style="-fx-background-color: #00a805;" text="Save " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
