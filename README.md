@@ -1,2 +1,2 @@
 # textotpdf
-A simple resume maker to generatae resumes in a hurry
+A simple resume maker to generate resumes in a hurry (Made in hurry as well)
